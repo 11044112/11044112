@@ -1,0 +1,576 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
+.outside {
+    width: 78%;
+
+    border-radius: 6px;
+    margin: auto;
+    position: relative;
+    background-color: #fffff1;
+}
+
+.nav a {
+    color: inherit;
+    /*移除超連結顏色*/
+    /*display: block;碰到填滿*/
+    text-decoration: none;
+    /*移除超連結底線*/
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav>ul {
+    list-style: none;
+    background-color: #BBC2E2;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.nav a:hover {
+    /*background-color: #3E5C76;*/
+    color: white;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.aboutme {
+    background-color: #DEECFF;
+    border-radius: 10px;
+    /*margin-top: 1%;*/
+}
+
+.myphoto {
+    object-fit: contain;
+    height: 250px;
+
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 30%;
+    transition: 1s ease-in-out;
+}
+
+.myphoto:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.aboutme1 {
+    height: 300px;
+    width: 30%;
+    float: left;
+
+}
+
+.aboutme2 {
+    float: left;
+    height: 300px;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.aboutme3 {
+    float: right;
+    height: 300px;
+    width: 45%;
+
+
+}
+
+.cute {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.word {
+    font-size: 15px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+.ability {
+    background-color: #F0D9DA;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.skill {
+    border-radius: 10px;
+}
+
+.p {
+    margin-left: 3%;
+}
+
+.progressbar li {
+    list-style: none;
+    position: relative;
+    margin: 48px 0;
+    font-size: 18px;
+
+}
+
+.progressbar li::before,
+.progressbar li::after {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 100%;
+    background-color: #B9BBDF;
+    position: absolute;
+    bottom: -28px;
+    border-radius: 8px;
+}
+
+.progressbar li::before {
+    box-shadow: 0 0 6px #B7B5E4;
+}
+
+.progressbar li::after {
+    background-color: #DDE7F2;
+}
+
+.progressbar li::after {
+    animation-duration: 4.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite
+}
+
+.Python::after {
+    animation-name: Python;
+}
+
+.HTML::after {
+    animation-name: HTML;
+}
+
+.CSS::after {
+    animation-name: CSS;
+}
+
+.JAVA::after {
+    animation-name: JAVA;
+}
+
+@keyframes Python {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%
+    }
+}
+
+@keyframes HTML {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 85%
+    }
+}
+
+@keyframes CSS {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%
+    }
+}
+
+@keyframes JAVA {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 75%
+    }
+}
+
+.sk {
+    padding-left: 3%;
+}
+
+.skill1 {
+    height: 400px;
+    width: 48%;
+    float: left;
+
+}
+
+.skill2 {
+    height: 400px;
+    width: 50%;
+    float: right;
+
+
+}
+
+.circle-eat {
+    margin-left: 47%;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.circle-Sleep {
+    margin-left: 30%;
+    margin-top: 55%;
+    font-weight: bolder;
+}
+
+.loader:hover::after {
+    animation: animate 3s linear 1 both;
+}
+
+.study {
+
+    background-color: #C8D9EB;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.study1 {
+    height: 280px;
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+
+}
+
+.edbg {
+    margin-left: -5%;
+}
+
+.study2 {
+    height: 280px;
+    width: 45%;
+    float: right;
+
+}
+
+.wkbg {
+    margin-left: -5%;
+}
+
+.bg {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.year {
+
+    font-style: oblique;
+    font-size: 15px;
+}
+
+.school {
+
+    padding-left: 10px;
+}
+
+.eng {
+    font-size: 10px;
+    font-family: 'Courgette', cursive;
+}
+
+.work {
+    font-size: 10px;
+}
+
+.project {
+
+    background-color: #D9D7F1;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.pj {
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+.bold {
+    font-weight: bold;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.project1 {
+
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/*
+height: 400px;
+width: 80%;
+*/
+.project1-1 {
+    height: 300px;
+    width: 49%;
+
+    float: left;
+}
+
+.project1-2 {
+    height: 300px;
+    width: 49%;
+
+    float: right;
+}
+
+.link {}
+
+.linkphoto {
+    height: 30px;
+}
+
+.project2-1 {
+    height: 300px;
+    width: 49%;
+
+    float: left;
+}
+
+.project2-2 {
+    height: 300px;
+    width: 49%;
+    float: right;
+}
+
+.little {
+    height: 250px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    transition: 1s ease-in-out;
+}
+
+.little:hover {
+    transform: scale(1.1, 1.1);
+}
+
+/*
+.project2 {
+    height: 400px;
+    width: 80%;
+    border: 2px orange solid;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+*/
+.activity {
+
+    margin-top: 15px;
+    background-color: #F9ECEC;
+    border-radius: 10px;
+}
+
+.activity .act {
+    padding: 1%;
+
+}
+
+.activity1 {
+    height: 300px;
+    width: 50%;
+
+    float: left;
+}
+
+.activity2 {
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+
+.monkey {
+    height: 250px;
+    margin-bottom: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 70px;
+    transition: 1s ease-in-out;
+}
+
+.monkey:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.right {
+    text-align: center;
+    font-weight: bold;
+}
+
+.rightph {
+    height: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.circle1 {
+    width: 48%;
+    float: left;
+    margin-top: -10%;
+    margin-left: -5%;
+
+}
+
+.circle2 {
+    width: 48%;
+    float: right;
+    margin-top: -10%;
+    margin-right: 4%;
+
+}
+
+/*圈圈*/
+body {
+    font-family: "Roboto", sans-serif;
+    background: #212020;
+
+}
+
+
+.circle-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 160px);
+    grid-gap: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background: #d9d7da;
+    border-radius: 50%;
+
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-1,
+.circle-wrap .circle .fill-2,
+.circle-wrap .circle .fill-3 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .inside-circle {
+    width: 124px;
+    height: 124px;
+    border-radius: 50%;
+    background: #B7B5E4;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 13px;
+    color: white;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+/* color animation */
+
+.mask .fill-1 {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #FFFDDE;
+}
+
+.mask.full-1,
+.circle .fill-1 {
+    animation: fill-1 ease-in-out 3s;
+    transform: rotate(153deg);
+    animation-iteration-count: infinite;
+}
+
+@keyframes fill-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(153deg);
+    }
+}
+
+/* 2nd bar */
+
+.mask .fill-2 {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #FFFDDE;
+}
+
+.mask.full-2,
+.circle .fill-2 {
+    animation: fill-2 ease-in-out 3s;
+    animation-iteration-count: infinite;
+    transform: rotate(162deg);
+}
+
+@keyframes fill-2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(162deg);
+    }
+}
+
+/*圈圈結束*/
+
+#rightBar {
+    z-index: 9999;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 5%;
+    height: auto;
+    margin-right: 50px;
+}
+
+.rightBar .btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.topbutton {
+    width: 50px;
+}
